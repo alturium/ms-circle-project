@@ -1,0 +1,30 @@
+{
+  "name": "ms-react-circle-demo",
+  "version": "0.1.0",
+  "private": true,
+  "proxy": "http://localhost:3100/",
+  "devDependencies": {
+    "react-scripts": "1.0.0"
+  },
+  "dependencies": {
+    "isnumeric": "^0.3.2",
+    "react": "^15.5.4",
+    "react-bootstrap": "^0.31.0",
+    "react-dom": "^15.5.4",
+    "react-redux": "^5.0.5",
+    "react-router": "^4.1.1",
+    "react-router-dom": "^4.1.1",
+    "react-router-redux": "next",
+    "redux": "^3.6.0",
+    "redux-thunk": "^2.2.0",
+    "sanitize.css": "^5.0.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "rest": "json-server --watch --port 3100 db.json",
+    "eject": "react-scripts eject"
+  },
+  "homepage": "https://github.com/alturium"
+}

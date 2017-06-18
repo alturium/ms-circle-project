@@ -1,0 +1,12 @@
+{
+  "response": {
+    "success": true,
+    "output": 11,
+    "operation": "calc-area-of-circle",
+    "error": null
+  },
+  "request": {
+    "input": 11,
+    "operation": "calc-area-of-circle"
+  }
+}
