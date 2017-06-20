@@ -13,3 +13,8 @@ body {
 button:disabled {
   opacity: 0.5;
 }
+
+.has-feedback .form-control {
+    padding-right: 4px;
+    padding-left: 4px;
+}

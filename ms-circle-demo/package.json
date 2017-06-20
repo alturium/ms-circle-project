@@ -2,7 +2,7 @@
   "name": "ms-react-circle-demo",
   "version": "0.1.0",
   "private": true,
-  "proxy": "http://localhost:3100/",
+  "proxy": "https://fathomless-everglades-97176.herokuapp.com/",
   "devDependencies": {
     "react-scripts": "1.0.0"
   },
@@ -20,6 +20,7 @@
     "sanitize.css": "^5.0.0"
   },
   "scripts": {
+    "startNode": "node node_modules/react-scripts/scripts/start.js",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
