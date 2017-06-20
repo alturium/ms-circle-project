@@ -11,13 +11,13 @@ If you run it locally, then it will use port 3100.
 
 After performing a git clone of the top-level 'ms-circle-project' :
 
-cmd>cd ms-geometry-service
+>cd ms-geometry-service
 
-cmd>mvn compile
+>mvn compile
 
-cmd>mvn package
+>mvn package
 
-cmd>java -jar target\demo-0.0.1-SNAPSHOT.jar
+>java -jar target\demo-0.0.1-SNAPSHOT.jar
 
 ## Test
 
