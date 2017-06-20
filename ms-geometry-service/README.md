@@ -5,19 +5,19 @@ The ms-geometry-service will calculate the area of a circle.
 
 Currently, the service is running on heroku at https://fathomless-everglades-97176.herokuapp.com/.
 
-If run locally, then it will use port 3100.
+If you run it locally, then it will use port 3100.
 
 ## Installation
 
 After performing a git clone of the top-level 'ms-circle-project' :
 
->cd ms-geometry-service
+cmd>cd ms-geometry-service
 
->mvn compile
+cmd>mvn compile
 
->mvn package
+cmd>mvn package
 
->java -jar target\demo-0.0.1-SNAPSHOT.jar
+cmd>java -jar target\demo-0.0.1-SNAPSHOT.jar
 
 ## Test
 
